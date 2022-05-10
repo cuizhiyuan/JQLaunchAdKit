@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'JQLaunchAdKit_Example' do
+  pod 'JQLaunchAdKit', :path => '../'
+
+  target 'JQLaunchAdKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
