@@ -1,0 +1,16 @@
+PODS:
+  - JQLaunchAdKit (3.1.3)
+
+DEPENDENCIES:
+  - JQLaunchAdKit (from `../`)
+
+EXTERNAL SOURCES:
+  JQLaunchAdKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JQLaunchAdKit: b6bc940e82b49701044e67fe6c3b643db0699db3
+
+PODFILE CHECKSUM: 6f454d5c57735e12ee973241c392f5f6a9d633bc
+
+COCOAPODS: 1.9.1

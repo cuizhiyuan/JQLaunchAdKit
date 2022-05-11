@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4510F195282B4329001648A7 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4510F194282B4329001648A7 /* WebKit.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -41,7 +42,8 @@
 		2459327BD09D6293D289EA7D /* Pods_JQLaunchAdKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JQLaunchAdKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		25C712F207145BB5D3A44C75 /* Pods-JQLaunchAdKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JQLaunchAdKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JQLaunchAdKit_Tests/Pods-JQLaunchAdKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3BE56A29A5E86292FCD9BADB /* Pods-JQLaunchAdKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JQLaunchAdKit_Example.release.xcconfig"; path = "Target Support Files/Pods-JQLaunchAdKit_Example/Pods-JQLaunchAdKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5DE15772E03830D4A358639C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4510F194282B4329001648A7 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		5DE15772E03830D4A358639C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* JQLaunchAdKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JQLaunchAdKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,8 +67,8 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8EEF7E4FA5844549D76DEBBF /* Pods-JQLaunchAdKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JQLaunchAdKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-JQLaunchAdKit_Tests/Pods-JQLaunchAdKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B1D809353187DE337A3A277B /* Pods_JQLaunchAdKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JQLaunchAdKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E320E0A3AF6A59E651ADDFD7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		FCE3993988807D0D04ED980C /* JQLaunchAdKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JQLaunchAdKit.podspec; path = ../JQLaunchAdKit.podspec; sourceTree = "<group>"; };
+		E320E0A3AF6A59E651ADDFD7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FCE3993988807D0D04ED980C /* JQLaunchAdKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JQLaunchAdKit.podspec; path = ../JQLaunchAdKit.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4510F195282B4329001648A7 /* WebKit.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -103,7 +106,6 @@
 				25C712F207145BB5D3A44C75 /* Pods-JQLaunchAdKit_Tests.debug.xcconfig */,
 				8EEF7E4FA5844549D76DEBBF /* Pods-JQLaunchAdKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,6 +133,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4510F194282B4329001648A7 /* WebKit.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -248,6 +251,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "554561128@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 6YEKC7JUE8;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +264,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,11 +501,12 @@
 			baseConfigurationReference = 192C1A760F4E77DD61803790 /* Pods-JQLaunchAdKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6YEKC7JUE8;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JQLaunchAdKit/JQLaunchAdKit-Prefix.pch";
 				INFOPLIST_FILE = "JQLaunchAdKit/JQLaunchAdKit-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yl2009.WK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
@@ -510,11 +518,12 @@
 			baseConfigurationReference = 3BE56A29A5E86292FCD9BADB /* Pods-JQLaunchAdKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6YEKC7JUE8;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JQLaunchAdKit/JQLaunchAdKit-Prefix.pch";
 				INFOPLIST_FILE = "JQLaunchAdKit/JQLaunchAdKit-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yl2009.WK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
