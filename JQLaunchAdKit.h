@@ -1,12 +1,23 @@
-//
-//  Header.h
-//  Pods
-//
-//  Created by dsb on 2022/5/11.
-//
-
-#ifndef Header_h
-#define Header_h
+//  代码地址: https://github.com/cuizhiyuan/JQLaunchAdKit
 
 
-#endif /* Header_h */
+#import <UIKit/UIKit.h>
+//! Project version number for JQLaunchAdKit.
+FOUNDATION_EXPORT double JQLaunchAdKitVersionNumber;
+
+//! Project version string for JQLaunchAdKit.
+FOUNDATION_EXPORT const unsigned char JQLaunchAdKitVersionString[];
+
+#import "JQLaunchAd.h"
+#import "JQLaunchAdButton.h"
+#import "JQLaunchAdCache.h"
+#import "JQLaunchAdConfiguration.h"
+#import "JQLaunchAdConst.h"
+#import "JQLaunchAdController.h"
+#import "JQLaunchAdDownloader.h"
+#import "JQLaunchAdImageManager.h"
+#import "JQLaunchAdImageView+JQLaunchAdCache.h"
+#import "JQLaunchAdManager.h"
+#import "JQLaunchAdView.h"
+#import "JQLaunchImageView.h"
+
