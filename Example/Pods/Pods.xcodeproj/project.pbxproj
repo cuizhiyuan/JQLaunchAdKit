@@ -7,77 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0539E5FDC10F4F6CCB8402FC2FA34EF3 /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D2A3658D70A2ACBCC46DEEE407BB9D /* share.png */; };
-		057CB0A173FA2DADB4C9BEEBE1F9F44D /* Pods-JQLaunchAdKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FF1DEEFC643C94CE09DB507AE6B2B24 /* Pods-JQLaunchAdKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		08F9271C58F561D9A580F52E2465268C /* FLAnimatedImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EDC41126406447010D9F075B44042A2 /* FLAnimatedImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		09CCB3AE86D28E8F6B1A68975DC17764 /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2663418877C1B4A516C5583D7DB4DE0D /* FLAnimatedImageView.m */; };
-		0B78A4EAB3073C04A54AA2B8558D0F48 /* JQLaunchAdButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7E4EFBCA854C7DA45E690B6397F69B /* JQLaunchAdButton.m */; };
-		17B4DF0DC36DC2FCDBF29C7C42E93AC6 /* JQLaunchImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF474C3399DF1580C220D587351EEED8 /* JQLaunchImageView.m */; };
-		1987D4305C0B14AB6E991BF6F531BCB3 /* JQLaunchAdNotifier.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8B799D37AFB490C7CD5828400A2406 /* JQLaunchAdNotifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1E784A282F9DDC87A20F47E0900495E9 /* FLAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1959469883AB3A7B9A8C7E583EF688CB /* FLAnimatedImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1ECB74DD122071EA07E9800998030E4A /* JQLaunchAdImageView+JQLaunchAdCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F72D402C30DB9FBBAE2611AC34D662 /* JQLaunchAdImageView+JQLaunchAdCache.m */; };
-		202A1860889C7CE3048CF9BE92886FAA /* JQLaunchAdConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 204FF06C37AC78079D159E04BD17395F /* JQLaunchAdConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		230E9BCBA909E2C035845E11E56542A6 /* JQLaunchAdDetailController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8494DE30694793AD61505F67B6CAEC0C /* JQLaunchAdDetailController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2E590FE38B977C38A9BFB8BC90108206 /* Pods-JQLaunchAdKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BB5778F5E24FCC3463CC0F2110D53F /* Pods-JQLaunchAdKit_Tests-dummy.m */; };
-		2EEA08EC117D6AA96AACA8EB2B606A18 /* JQLaunchAdView.h in Headers */ = {isa = PBXBuildFile; fileRef = 038D90549D1643955F287AB9A1E7FB46 /* JQLaunchAdView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F5339E0C7272595729969C9AA6E5ACA /* JQLaunchAdImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2432E5950B808BE15E6CDA8794855CB1 /* JQLaunchAdImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348C3A6A9D14D03DD939710685A2D02C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		3BA2264132FCD7AF8D167D8A15452561 /* JQLaunchAdNotifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E2CD2DC18CB9CBE4C8D2ABE8D881EF /* JQLaunchAdNotifier.m */; };
-		4035D336E72FA83B3743D099E4FA534D /* JQLaunchAdButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 588E9579A19283E58DAC98B869701B7E /* JQLaunchAdButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		444F3D01D76E613D57792FFB1967C6DE /* JQLaunchAdController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ACC75B4042C8C9065B8A56079EFD62E /* JQLaunchAdController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C84DB503FEB7066C3DDBEF6A26C70D4 /* JQLaunchAdConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ADFFAD56BDE3D389F0F8F4CF244A388 /* JQLaunchAdConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4E1FF150A378E83B132D172C88CE19C1 /* JQLaunchImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 57CBE5BFC99DAE9175808037DDD84196 /* JQLaunchImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		55392CDD933E262690FFA2E55825DE25 /* NoNet.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E85F484E349FF1772F30C99E732077 /* NoNet.png */; };
-		554E20E393B9ADE9211576AB4D4C70DD /* JQLaunchAdModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E0433F503446AD33E97DBB44BF301279 /* JQLaunchAdModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		59B83A7049CE5B641963213B158FA430 /* JQLaunchAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 549FD79C15F4054B53CA9F516E44ED75 /* JQLaunchAdView.m */; };
-		63093011ECBE26F10BE50AA1B200DCD3 /* JQLaunchAdDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9A77B8AF02FD54233A902142F81BF1 /* JQLaunchAdDownloader.m */; };
-		66517B155D90FAB05DC15D35DCABDAC6 /* JQLaunchAdCache.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7FAA5D2EE4D72A2F2BB13F2E561D38 /* JQLaunchAdCache.m */; };
-		685DC3D62E3ECB1E4A948624374188BC /* JQLaunchAdManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 74712048D371967C852A43C8B1E5B149 /* JQLaunchAdManager.m */; };
-		6877103FF2F731AD54A10A3039B2C17B /* Pods-JQLaunchAdKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5D8AF17F153EE14F15ABB89F62AEACC /* Pods-JQLaunchAdKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6CFFA4B71C07D71D651B9D55B04DB217 /* JQLaunchAdCache.h in Headers */ = {isa = PBXBuildFile; fileRef = ABE557CAB6E804B884D03B8A3FE7D8F7 /* JQLaunchAdCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7013A194ACC14ED74F2674A74E707286 /* JQLaunchAdKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFD6F7823957556D7FE3A13BAF1FFAF /* JQLaunchAdKit-dummy.m */; };
-		75B588CBAE6D4B3E2B14636CEB7EB9F6 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = C19A9F50BFABCEC7198DDF3082ECBEC7 /* back.png */; };
-		78121DB57EF2A6979BA499181979431E /* JQLaunchAdDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 404D09C697B435FB5F9F034C227A15CC /* JQLaunchAdDetailController.m */; };
-		8665049E3C0F7D58D0D2B7FA81E9F910 /* JQLaunchAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 5682CAF3633FD35F4E20D13071095E29 /* JQLaunchAd.m */; };
-		871C09F22F1F53B079ECACB3FE3CE89F /* JQLaunchAdImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 86DDEE9AEFA7352116F14FF3C8867F5A /* JQLaunchAdImageManager.m */; };
-		8CA18DFF9CDCBEA832F7C689A6BEA9C4 /* JQLaunchAdModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4EB247CC27316A761B6A5BD9C0616A /* JQLaunchAdModel.m */; };
-		8D0B6A2EAC71B4F6D483AF5D11AB0C61 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = C7A1BE2B62C67E00B1E5DB5000191BEB /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		93DC60248C4A984A8BFA3B49C39B25FE /* JQLaunchAdKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B9056970A5BD0656AC66FEB1245BB213 /* JQLaunchAdKit.bundle */; };
-		9767A8D629621A3DAEF0D9F335063CAF /* JQLaunchAdConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 9267B1E2A8EAA120C970FBB0EC8D8912 /* JQLaunchAdConst.m */; };
-		9A4C8E93EC6B1ED716B82F2FF2F0E2B9 /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = BD294092D1E0168CE886E538022110AF /* FLAnimatedImage.m */; };
-		9B53B089AA2FBC1EA2E53BB43B23BFD8 /* forward.png in Resources */ = {isa = PBXBuildFile; fileRef = 534E87D9D1EB5DFB3ED42BC86E853768 /* forward.png */; };
-		B1FFDEEA37501ADB3966D2BF8126F094 /* JQLaunchAdImageView+JQLaunchAdCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D2F134550AF762E2B4F70413ECD005D /* JQLaunchAdImageView+JQLaunchAdCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B7151411D721AB0C71818B6DC460229B /* JQLaunchAdConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E89B8700B6366329B4B0E3E0823010 /* JQLaunchAdConfiguration.m */; };
-		B8664844B7FA1EB00CA18806752089D5 /* JQLaunchAdDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B78822188772EE5AE3DEBE12F7B1C27 /* JQLaunchAdDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B8CB3F1EF27D2705DB2A697D2394A536 /* JQLaunchAdKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EBDEED816096E75D17235E17D2ACC22F /* JQLaunchAdKit.bundle */; };
-		BEEE602BE621B32875B8F4E0FD1D5C7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		C6543DD0A790581C6D71503257C48181 /* JQLaunchAdManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 384ACDF112AC1EA9F8BB7F50CF6F81D3 /* JQLaunchAdManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CA73699BEDA47195E60F4609854E63FA /* Pods-JQLaunchAdKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F41F6470F168D5897E06E0FA7AD53AF /* Pods-JQLaunchAdKit_Example-dummy.m */; };
-		CEF17A8B5AA2CA2E98A9886E754263EA /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 957906072B473788BD24DD9658454690 /* Reachability.m */; };
-		D219F7F689A6A7020FB7927945894A9D /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = D35D5687EEC8F9BA72B87175D9C5DD94 /* home.png */; };
-		D6434A3D6128B4019913EE5ADAE36CA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		DD68B3316D6BEA26E2C9EBFFF1360FE0 /* JQLaunchAdController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E49074DCB8F512F03D142F8F02DED6 /* JQLaunchAdController.m */; };
-		F8FA9D69E3FAC7AB57A6763A64D6E30B /* reload.png in Resources */ = {isa = PBXBuildFile; fileRef = 28D354359A92B8C86856820610317FC7 /* reload.png */; };
-		FA3BD9B9D4AE427AE5A50DCA03AFB735 /* JQLaunchAdKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F949643B39B6B2F2D15FA0D269143A53 /* JQLaunchAdKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA833226095AC8EF5AB6D13BBB15EEBE /* JQLaunchAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B922D1A582BC66D2EE64288EE58B149 /* JQLaunchAd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A657A8959E2F988555796B9D6336395 /* JQLaunchAdController.m in Sources */ = {isa = PBXBuildFile; fileRef = 080061640C90C3B636B3BA161456F80D /* JQLaunchAdController.m */; };
+		0C480050CD0FB277BEA3884C855E0016 /* JQLaunchAdCache.h in Headers */ = {isa = PBXBuildFile; fileRef = C8070AA48BCDBF6D96C5F899B0C1CAD0 /* JQLaunchAdCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E1D8BDCD973AF07BDE0652BC7FBA982 /* JQLaunchAdModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C31056302997F5DCC57BA9546D2A1DC5 /* JQLaunchAdModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15F699479725170D37BE9C68A38464E8 /* JQLaunchAdConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C16DC85CD9470C321B0E127B128CAFD /* JQLaunchAdConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15F6AC0EDC716B6B5669F0D4A1885941 /* Pods-JQLaunchAdKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BB5778F5E24FCC3463CC0F2110D53F /* Pods-JQLaunchAdKit_Tests-dummy.m */; };
+		1C6DE2FA1582A8BE3CA095D714D98E28 /* JQLaunchAdView.h in Headers */ = {isa = PBXBuildFile; fileRef = 80A5509052BB464FD70F2A5E044F09DA /* JQLaunchAdView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26F27A5DA7784C4CADA205DDF9E589C8 /* JQLaunchAdKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D37FC7EE89E20394798FB96B4D141 /* JQLaunchAdKit-dummy.m */; };
+		2B2F46D17D442D21AAEDEFCB1198EB42 /* JQLaunchAd.h in Headers */ = {isa = PBXBuildFile; fileRef = DC197BCAFC6164CA930E1E10778B5932 /* JQLaunchAd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D2165D0F42802590E0ADCD595251262 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2F6F39FAA3B29DF50B9A809EF69546F1 /* JQLaunchAdButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 174494D495318D7FB115EE9C152F2E94 /* JQLaunchAdButton.m */; };
+		3D0A820B51686CF455B5BE3D395F6063 /* JQLaunchAdController.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F267D3FEAACD45AA90094360AA64E6 /* JQLaunchAdController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F6D16E8104392F55848C35FCB728449 /* JQLaunchAdKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 21E9C840A013336019BD19980B38BE45 /* JQLaunchAdKit.bundle */; };
+		3FAC8979134D18678F1804762DC73A4A /* JQLaunchAdManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B96524CC589C787119E51C927C13EB1D /* JQLaunchAdManager.m */; };
+		4396F91B2AFB7A7EBDBC07A6FA22FC2E /* JQLaunchAdConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 968BDFA62850B3CFE0175B730732A2B7 /* JQLaunchAdConfiguration.m */; };
+		57F734EB08EBE36C55E7EDC77D27A5B9 /* JQLaunchAdDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = C783764EF53A4ED430F47E366765D657 /* JQLaunchAdDownloader.m */; };
+		663F0D406B505631CA7CDE4F743E4AEE /* JQLaunchAdImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1430F4FF8B5D51F3E40BFC3D978348D3 /* JQLaunchAdImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		675C3B299C651ADC925458F130DAD886 /* JQLaunchImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6519398FC38E8EEE87044FE8C11E235 /* JQLaunchImageView.m */; };
+		6AC7614135C90A71A8F74E2CE013E5C7 /* JQLaunchAdButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 60E69996C785C0787D5F17AB0BA24B1F /* JQLaunchAdButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EC6ED2EE74B61DB009D9C12763D7505 /* JQLaunchAdImageView+JQLaunchAdCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D343579A01EE76B7400A5631D6E583A /* JQLaunchAdImageView+JQLaunchAdCache.m */; };
+		7A9C1D81BBFA2715A8D5EB82E2A9CAB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8D3F95E1CCBB4248DA1FEDEF6B88FF57 /* JQLaunchAdManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F06E825817E911DB3186B9E6461F7338 /* JQLaunchAdManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		933E4C45F8C52BF832CDE94543FAB6CE /* JQLaunchAdKit-JQLaunchAdKit in Resources */ = {isa = PBXBuildFile; fileRef = EBDEED816096E75D17235E17D2ACC22F /* JQLaunchAdKit-JQLaunchAdKit */; };
+		98D09285E9779F6E92BD067BF5C301AE /* JQLaunchAdDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 52181813228F2B79D51674488A5B7D52 /* JQLaunchAdDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45771CAB90598D757E49E61684BD89E /* Pods-JQLaunchAdKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FF1DEEFC643C94CE09DB507AE6B2B24 /* Pods-JQLaunchAdKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4633C8666B4650BF27DE86E7BA5AC2C /* Pods-JQLaunchAdKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5D8AF17F153EE14F15ABB89F62AEACC /* Pods-JQLaunchAdKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC877C5086333D2DB9CE0D268223B6A2 /* JQLaunchImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 12805945682BA7E8F27CAD0FFB300554 /* JQLaunchImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B028A7C358F77B3D1D33662348E2FE37 /* JQLaunchAdKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D566AA2F04A7152F809FD4FA25FBB6 /* JQLaunchAdKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0F6E8F0B1F571F4F35A6A7AFA21A4DB /* JQLaunchAdImageView+JQLaunchAdCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D9C0150B94803CCA316197BDAE17CEE /* JQLaunchAdImageView+JQLaunchAdCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0F950406BBB2A7BA0DA4661CBC872F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BB98CA33D42F42602D4D4DE6D5DD7C18 /* JQLaunchAdNotifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 15189111EA557386E3D4CC2D5212C78A /* JQLaunchAdNotifier.m */; };
+		C2F586E5C94D6401DCA68B5CF5A5A2CA /* JQLaunchAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 196557EC6B3AA5CA4EC3CCFF19A1ADFA /* JQLaunchAdView.m */; };
+		C7DD0CF52C9F8491B09052CE1431AD91 /* JQLaunchAdKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BBD96DE1510289AC10155E35F96CDBC0 /* JQLaunchAdKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C891A932399083A31AE5717985BE89DB /* JQLaunchAdConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 51F2A25389A0FC23239F6C0FF0BFB625 /* JQLaunchAdConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF0647296E1E0AC802B999A0CF778E27 /* JQLaunchAdDetailController.h in Headers */ = {isa = PBXBuildFile; fileRef = 839BFD6E38143789250E57411FDA3AFB /* JQLaunchAdDetailController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D21396DFB73E2CF4FADA0166091CA5A3 /* JQLaunchAdNotifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 997A83F64E98F8097AA643F01E1A1CF9 /* JQLaunchAdNotifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA1315CFED11D6648D51FBB368D9112F /* JQLaunchAdConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 626E019A8E3F1C8E69AE81E2EEF3E5E6 /* JQLaunchAdConst.m */; };
+		DA36A57BD70790F103AD8CA2E7B1DB0D /* JQLaunchAdDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E27B91CB5B773593638B604003F201F /* JQLaunchAdDetailController.m */; };
+		E53796A763B44A675A8987535C840399 /* Pods-JQLaunchAdKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F41F6470F168D5897E06E0FA7AD53AF /* Pods-JQLaunchAdKit_Example-dummy.m */; };
+		E7B5B78874B449723D755FA1E7C94C55 /* JQLaunchAdImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 706E8AF694F477EA97650CB09CE8615A /* JQLaunchAdImageManager.m */; };
+		EB3DC92F8AA868AABFC5A65286D7E045 /* JQLaunchAdCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4507EA4F74142EC0CBBCF5B7B64EE8AF /* JQLaunchAdCache.m */; };
+		EC01AF6F6642A487510A68B62B818770 /* JQLaunchAd.m in Sources */ = {isa = PBXBuildFile; fileRef = AA58DEF231A48D1AE6D048F1B974A100 /* JQLaunchAd.m */; };
+		FB42F1B8526043983F3B98687F70CFEE /* JQLaunchAdModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 46103394DF163BE2C9E2A55BBD152360 /* JQLaunchAdModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1CAA412418C5C7B2BB080CCA773018FC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E15373DCAAB684E739A854CEB87715E3;
-			remoteInfo = "Pods-JQLaunchAdKit_Example";
-		};
-		87CE19A6E4EFA997AD58282614F5D94F /* PBXContainerItemProxy */ = {
+		3ACBCBD6F880ED86AC52D92B6A565700 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6FD002FA670FAD42CFBDC3E02F84BDFA;
 			remoteInfo = "JQLaunchAdKit-JQLaunchAdKit";
 		};
-		A2F07FEA02DFEC246F744E9C96043E19 /* PBXContainerItemProxy */ = {
+		403FEA173E5C757C266044BD33BE0294 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E15373DCAAB684E739A854CEB87715E3;
+			remoteInfo = "Pods-JQLaunchAdKit_Example";
+		};
+		F3C85F2C5DDEA26E7EE56C06E120F458 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -87,111 +76,100 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		038D90549D1643955F287AB9A1E7FB46 /* JQLaunchAdView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JQLaunchAdView.h; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAdView.h; sourceTree = "<group>"; };
+		080061640C90C3B636B3BA161456F80D /* JQLaunchAdController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JQLaunchAdController.m; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAdController.m; sourceTree = "<group>"; };
 		089E5AB455FFA7F28346AE7728F00E26 /* Pods-JQLaunchAdKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JQLaunchAdKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		0B78822188772EE5AE3DEBE12F7B1C27 /* JQLaunchAdDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JQLaunchAdDownloader.h; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAdDownloader.h; sourceTree = "<group>"; };
-		0D2F134550AF762E2B4F70413ECD005D /* JQLaunchAdImageView+JQLaunchAdCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JQLaunchAdImageView+JQLaunchAdCache.h"; path = "JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAdImageView+JQLaunchAdCache.h"; sourceTree = "<group>"; };
-		103635DB3B5CA5E72757A3170BB96A9C /* JQLaunchAdKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JQLaunchAdKit-Info.plist"; sourceTree = "<group>"; };
-		1959469883AB3A7B9A8C7E583EF688CB /* FLAnimatedImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImageView.h; sourceTree = "<group>"; };
+		0A19F040E095FB4036D2B57B9C2428CE /* JQLaunchAdKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JQLaunchAdKit.debug.xcconfig; sourceTree = "<group>"; };
+		12805945682BA7E8F27CAD0FFB300554 /* JQLaunchImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JQLaunchImageView.h; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchImageView.h; sourceTree = "<group>"; };
+		13D566AA2F04A7152F809FD4FA25FBB6 /* JQLaunchAdKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JQLaunchAdKit.h; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAdKit.h; sourceTree = "<group>"; };
+		1430F4FF8B5D51F3E40BFC3D978348D3 /* JQLaunchAdImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JQLaunchAdImageManager.h; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAdImageManager.h; sourceTree = "<group>"; };
+		15189111EA557386E3D4CC2D5212C78A /* JQLaunchAdNotifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JQLaunchAdNotifier.m; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAdNotifier.m; sourceTree = "<group>"; };
+		174494D495318D7FB115EE9C152F2E94 /* JQLaunchAdButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JQLaunchAdButton.m; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAdButton.m; sourceTree = "<group>"; };
+		196557EC6B3AA5CA4EC3CCFF19A1ADFA /* JQLaunchAdView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JQLaunchAdView.m; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAdView.m; sourceTree = "<group>"; };
 		1E6DA39AA65446E32D3455806A2D68BE /* Pods-JQLaunchAdKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JQLaunchAdKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		204FF06C37AC78079D159E04BD17395F /* JQLaunchAdConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JQLaunchAdConst.h; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAdConst.h; sourceTree = "<group>"; };
-		2432E5950B808BE15E6CDA8794855CB1 /* JQLaunchAdImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JQLaunchAdImageManager.h; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAdImageManager.h; sourceTree = "<group>"; };
-		2663418877C1B4A516C5583D7DB4DE0D /* FLAnimatedImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImageView.m; sourceTree = "<group>"; };
-		278919F130E188FA770B68D15FC68D45 /* Pods_JQLaunchAdKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JQLaunchAdKit_Tests.framework; path = "Pods-JQLaunchAdKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		28D354359A92B8C86856820610317FC7 /* reload.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = reload.png; sourceTree = "<group>"; };
-		28E2CD2DC18CB9CBE4C8D2ABE8D881EF /* JQLaunchAdNotifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JQLaunchAdNotifier.m; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAdNotifier.m; sourceTree = "<group>"; };
-		2ADFFAD56BDE3D389F0F8F4CF244A388 /* JQLaunchAdConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JQLaunchAdConfiguration.h; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAdConfiguration.h; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		21E9C840A013336019BD19980B38BE45 /* JQLaunchAdKit.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = JQLaunchAdKit.bundle; path = JQLaunchAdKit/Assets/JQLaunchAdKit.bundle; sourceTree = "<group>"; };
+		278919F130E188FA770B68D15FC68D45 /* Pods-JQLaunchAdKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JQLaunchAdKit_Tests"; path = Pods_JQLaunchAdKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A57415FAD8FFA88469A12A3009F3865 /* JQLaunchAdKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JQLaunchAdKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2C16DC85CD9470C321B0E127B128CAFD /* JQLaunchAdConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JQLaunchAdConst.h; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAdConst.h; sourceTree = "<group>"; };
+		320A0C2157824D08A409C70211A9F828 /* JQLaunchAdKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JQLaunchAdKit.modulemap; sourceTree = "<group>"; };
 		3603F06B74B9235D3129C15D3F490384 /* Pods-JQLaunchAdKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JQLaunchAdKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		384ACDF112AC1EA9F8BB7F50CF6F81D3 /* JQLaunchAdManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JQLaunchAdManager.h; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAdManager.h; sourceTree = "<group>"; };
-		3ACC75B4042C8C9065B8A56079EFD62E /* JQLaunchAdController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JQLaunchAdController.h; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAdController.h; sourceTree = "<group>"; };
-		3B4EB247CC27316A761B6A5BD9C0616A /* JQLaunchAdModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JQLaunchAdModel.m; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAdModel.m; sourceTree = "<group>"; };
-		3EDC41126406447010D9F075B44042A2 /* FLAnimatedImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImage.h; sourceTree = "<group>"; };
-		404D09C697B435FB5F9F034C227A15CC /* JQLaunchAdDetailController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JQLaunchAdDetailController.m; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAdDetailController.m; sourceTree = "<group>"; };
 		40BB5778F5E24FCC3463CC0F2110D53F /* Pods-JQLaunchAdKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JQLaunchAdKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		534E87D9D1EB5DFB3ED42BC86E853768 /* forward.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = forward.png; sourceTree = "<group>"; };
-		549FD79C15F4054B53CA9F516E44ED75 /* JQLaunchAdView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JQLaunchAdView.m; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAdView.m; sourceTree = "<group>"; };
-		5682CAF3633FD35F4E20D13071095E29 /* JQLaunchAd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JQLaunchAd.m; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAd.m; sourceTree = "<group>"; };
-		57CBE5BFC99DAE9175808037DDD84196 /* JQLaunchImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JQLaunchImageView.h; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchImageView.h; sourceTree = "<group>"; };
-		588E9579A19283E58DAC98B869701B7E /* JQLaunchAdButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JQLaunchAdButton.h; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAdButton.h; sourceTree = "<group>"; };
+		4507EA4F74142EC0CBBCF5B7B64EE8AF /* JQLaunchAdCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JQLaunchAdCache.m; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAdCache.m; sourceTree = "<group>"; };
+		46103394DF163BE2C9E2A55BBD152360 /* JQLaunchAdModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JQLaunchAdModel.m; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAdModel.m; sourceTree = "<group>"; };
+		4AF8BFFA5F1C66925F05BE07AB3CBCF0 /* JQLaunchAdKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JQLaunchAdKit.release.xcconfig; sourceTree = "<group>"; };
+		4C4BA7D9149F23BB2051E529B2B2434E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		51F2A25389A0FC23239F6C0FF0BFB625 /* JQLaunchAdConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JQLaunchAdConfiguration.h; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAdConfiguration.h; sourceTree = "<group>"; };
+		52181813228F2B79D51674488A5B7D52 /* JQLaunchAdDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JQLaunchAdDownloader.h; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAdDownloader.h; sourceTree = "<group>"; };
+		53F267D3FEAACD45AA90094360AA64E6 /* JQLaunchAdController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JQLaunchAdController.h; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAdController.h; sourceTree = "<group>"; };
 		599AF9A226BC8B5E0CFB4F0E69F7719C /* Pods-JQLaunchAdKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JQLaunchAdKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5B922D1A582BC66D2EE64288EE58B149 /* JQLaunchAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JQLaunchAd.h; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAd.h; sourceTree = "<group>"; };
-		65E49074DCB8F512F03D142F8F02DED6 /* JQLaunchAdController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JQLaunchAdController.m; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAdController.m; sourceTree = "<group>"; };
+		5AE42A36FB77B9B7876AFC92093793EB /* JQLaunchAdKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JQLaunchAdKit-Info.plist"; sourceTree = "<group>"; };
+		5D9C0150B94803CCA316197BDAE17CEE /* JQLaunchAdImageView+JQLaunchAdCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JQLaunchAdImageView+JQLaunchAdCache.h"; path = "JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAdImageView+JQLaunchAdCache.h"; sourceTree = "<group>"; };
+		60E69996C785C0787D5F17AB0BA24B1F /* JQLaunchAdButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JQLaunchAdButton.h; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAdButton.h; sourceTree = "<group>"; };
+		626E019A8E3F1C8E69AE81E2EEF3E5E6 /* JQLaunchAdConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JQLaunchAdConst.m; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAdConst.m; sourceTree = "<group>"; };
 		6A13EF9EC45D3F70129710E50408167E /* Pods-JQLaunchAdKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JQLaunchAdKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6E157CD0825663FB32F46101B074B6D0 /* JQLaunchAdKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JQLaunchAdKit.debug.xcconfig; sourceTree = "<group>"; };
-		6FF9787E1690270479339A128CC1D6BA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		74712048D371967C852A43C8B1E5B149 /* JQLaunchAdManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JQLaunchAdManager.m; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAdManager.m; sourceTree = "<group>"; };
+		6D343579A01EE76B7400A5631D6E583A /* JQLaunchAdImageView+JQLaunchAdCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "JQLaunchAdImageView+JQLaunchAdCache.m"; path = "JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAdImageView+JQLaunchAdCache.m"; sourceTree = "<group>"; };
+		706E8AF694F477EA97650CB09CE8615A /* JQLaunchAdImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JQLaunchAdImageManager.m; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAdImageManager.m; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		80A5509052BB464FD70F2A5E044F09DA /* JQLaunchAdView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JQLaunchAdView.h; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAdView.h; sourceTree = "<group>"; };
 		821C357C2FD676BD584120B450517057 /* Pods-JQLaunchAdKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JQLaunchAdKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8494DE30694793AD61505F67B6CAEC0C /* JQLaunchAdDetailController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JQLaunchAdDetailController.h; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAdDetailController.h; sourceTree = "<group>"; };
-		86DDEE9AEFA7352116F14FF3C8867F5A /* JQLaunchAdImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JQLaunchAdImageManager.m; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAdImageManager.m; sourceTree = "<group>"; };
-		8E697F065687951B2BD75DDC34D00E37 /* JQLaunchAdKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JQLaunchAdKit-prefix.pch"; sourceTree = "<group>"; };
+		839BFD6E38143789250E57411FDA3AFB /* JQLaunchAdDetailController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JQLaunchAdDetailController.h; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAdDetailController.h; sourceTree = "<group>"; };
 		8F41F6470F168D5897E06E0FA7AD53AF /* Pods-JQLaunchAdKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JQLaunchAdKit_Example-dummy.m"; sourceTree = "<group>"; };
 		8FF1DEEFC643C94CE09DB507AE6B2B24 /* Pods-JQLaunchAdKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JQLaunchAdKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9024421A9DEEA16DF665C74F09E282B9 /* Pods-JQLaunchAdKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JQLaunchAdKit_Example-Info.plist"; sourceTree = "<group>"; };
-		903508804DA28945D7276A6F0B04E640 /* JQLaunchAdKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JQLaunchAdKit.framework; path = JQLaunchAdKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		903508804DA28945D7276A6F0B04E640 /* JQLaunchAdKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JQLaunchAdKit; path = JQLaunchAdKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		914216F109232AAC4854923262E8B2D4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		918EAA97C417BCC7A9790CF3B974EABC /* Pods-JQLaunchAdKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JQLaunchAdKit_Tests-Info.plist"; sourceTree = "<group>"; };
-		9267B1E2A8EAA120C970FBB0EC8D8912 /* JQLaunchAdConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JQLaunchAdConst.m; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAdConst.m; sourceTree = "<group>"; };
-		957906072B473788BD24DD9658454690 /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		95AAE2B5099BB584E671D9017DD387EC /* Pods-JQLaunchAdKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JQLaunchAdKit_Tests.modulemap"; sourceTree = "<group>"; };
-		97F1A2A742E826924D09351E52A3233E /* Pods_JQLaunchAdKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JQLaunchAdKit_Example.framework; path = "Pods-JQLaunchAdKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		968BDFA62850B3CFE0175B730732A2B7 /* JQLaunchAdConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JQLaunchAdConfiguration.m; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAdConfiguration.m; sourceTree = "<group>"; };
+		97F1A2A742E826924D09351E52A3233E /* Pods-JQLaunchAdKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JQLaunchAdKit_Example"; path = Pods_JQLaunchAdKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		985755380B3A03491A4DFFE594706C39 /* Pods-JQLaunchAdKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JQLaunchAdKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		997A83F64E98F8097AA643F01E1A1CF9 /* JQLaunchAdNotifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JQLaunchAdNotifier.h; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAdNotifier.h; sourceTree = "<group>"; };
+		9B9D37FC7EE89E20394798FB96B4D141 /* JQLaunchAdKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JQLaunchAdKit-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AB76EDC61F85605A4EBFF11EBE9A6D52 /* JQLaunchAdKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JQLaunchAdKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AB7E4EFBCA854C7DA45E690B6397F69B /* JQLaunchAdButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JQLaunchAdButton.m; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAdButton.m; sourceTree = "<group>"; };
-		ABE557CAB6E804B884D03B8A3FE7D8F7 /* JQLaunchAdCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JQLaunchAdCache.h; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAdCache.h; sourceTree = "<group>"; };
-		AD7FAA5D2EE4D72A2F2BB13F2E561D38 /* JQLaunchAdCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JQLaunchAdCache.m; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAdCache.m; sourceTree = "<group>"; };
+		9E27B91CB5B773593638B604003F201F /* JQLaunchAdDetailController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JQLaunchAdDetailController.m; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAdDetailController.m; sourceTree = "<group>"; };
+		A6519398FC38E8EEE87044FE8C11E235 /* JQLaunchImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JQLaunchImageView.m; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchImageView.m; sourceTree = "<group>"; };
+		AA58DEF231A48D1AE6D048F1B974A100 /* JQLaunchAd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JQLaunchAd.m; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAd.m; sourceTree = "<group>"; };
 		B02B78CA31DECA8096E8CCC52A0F9B2E /* Pods-JQLaunchAdKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JQLaunchAdKit_Example.modulemap"; sourceTree = "<group>"; };
 		B079F1609D8433751BFC85DC8391CA46 /* Pods-JQLaunchAdKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JQLaunchAdKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B3A05607A1E7AD06B0474359500A7A1A /* JQLaunchAdKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JQLaunchAdKit.modulemap; sourceTree = "<group>"; };
 		B5D8AF17F153EE14F15ABB89F62AEACC /* Pods-JQLaunchAdKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JQLaunchAdKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		B9056970A5BD0656AC66FEB1245BB213 /* JQLaunchAdKit.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = JQLaunchAdKit.bundle; path = JQLaunchAdKit/Assets/JQLaunchAdKit.bundle; sourceTree = "<group>"; };
-		BD294092D1E0168CE886E538022110AF /* FLAnimatedImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImage.m; sourceTree = "<group>"; };
-		BDFD6F7823957556D7FE3A13BAF1FFAF /* JQLaunchAdKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JQLaunchAdKit-dummy.m"; sourceTree = "<group>"; };
-		C19A9F50BFABCEC7198DDF3082ECBEC7 /* back.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
-		C4440FE50B1737ED1BC093BBF83C54B0 /* ResourceBundle-JQLaunchAdKit-JQLaunchAdKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-JQLaunchAdKit-JQLaunchAdKit-Info.plist"; sourceTree = "<group>"; };
-		C7A1BE2B62C67E00B1E5DB5000191BEB /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		CA26D633CCCC4D2404F3C60E4A4E3528 /* JQLaunchAdKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JQLaunchAdKit.release.xcconfig; sourceTree = "<group>"; };
-		CA4924D1A2CA119370C3A0A97F711B54 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		D0E85F484E349FF1772F30C99E732077 /* NoNet.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = NoNet.png; sourceTree = "<group>"; };
-		D35D5687EEC8F9BA72B87175D9C5DD94 /* home.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
-		D4F72D402C30DB9FBBAE2611AC34D662 /* JQLaunchAdImageView+JQLaunchAdCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "JQLaunchAdImageView+JQLaunchAdCache.m"; path = "JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAdImageView+JQLaunchAdCache.m"; sourceTree = "<group>"; };
-		DD8B799D37AFB490C7CD5828400A2406 /* JQLaunchAdNotifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JQLaunchAdNotifier.h; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAdNotifier.h; sourceTree = "<group>"; };
+		B96524CC589C787119E51C927C13EB1D /* JQLaunchAdManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JQLaunchAdManager.m; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAdManager.m; sourceTree = "<group>"; };
+		BBD96DE1510289AC10155E35F96CDBC0 /* JQLaunchAdKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JQLaunchAdKit-umbrella.h"; sourceTree = "<group>"; };
+		C31056302997F5DCC57BA9546D2A1DC5 /* JQLaunchAdModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JQLaunchAdModel.h; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAdModel.h; sourceTree = "<group>"; };
+		C783764EF53A4ED430F47E366765D657 /* JQLaunchAdDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JQLaunchAdDownloader.m; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAdDownloader.m; sourceTree = "<group>"; };
+		C8070AA48BCDBF6D96C5F899B0C1CAD0 /* JQLaunchAdCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JQLaunchAdCache.h; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAdCache.h; sourceTree = "<group>"; };
+		CC0355CB892B2837DD5D3425F6D80552 /* JQLaunchAdKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JQLaunchAdKit-prefix.pch"; sourceTree = "<group>"; };
+		D1C1672E0B0DE2BE417BE93401588F34 /* ResourceBundle-JQLaunchAdKit-JQLaunchAdKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-JQLaunchAdKit-JQLaunchAdKit-Info.plist"; sourceTree = "<group>"; };
+		DC197BCAFC6164CA930E1E10778B5932 /* JQLaunchAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JQLaunchAd.h; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAd.h; sourceTree = "<group>"; };
 		DF10E459E5F93A17D56D1A6E922F4987 /* Pods-JQLaunchAdKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JQLaunchAdKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DF474C3399DF1580C220D587351EEED8 /* JQLaunchImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JQLaunchImageView.m; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchImageView.m; sourceTree = "<group>"; };
-		E0433F503446AD33E97DBB44BF301279 /* JQLaunchAdModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JQLaunchAdModel.h; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAdModel.h; sourceTree = "<group>"; };
-		E4D2A3658D70A2ACBCC46DEEE407BB9D /* share.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = share.png; sourceTree = "<group>"; };
-		EBDEED816096E75D17235E17D2ACC22F /* JQLaunchAdKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = JQLaunchAdKit.bundle; path = "JQLaunchAdKit-JQLaunchAdKit.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF9A77B8AF02FD54233A902142F81BF1 /* JQLaunchAdDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JQLaunchAdDownloader.m; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAdDownloader.m; sourceTree = "<group>"; };
-		F4E89B8700B6366329B4B0E3E0823010 /* JQLaunchAdConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JQLaunchAdConfiguration.m; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAdConfiguration.m; sourceTree = "<group>"; };
-		F949643B39B6B2F2D15FA0D269143A53 /* JQLaunchAdKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JQLaunchAdKit-umbrella.h"; sourceTree = "<group>"; };
+		EBDEED816096E75D17235E17D2ACC22F /* JQLaunchAdKit-JQLaunchAdKit */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "JQLaunchAdKit-JQLaunchAdKit"; path = JQLaunchAdKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F06E825817E911DB3186B9E6461F7338 /* JQLaunchAdManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JQLaunchAdManager.h; path = JQLaunchAdKit/Classes/JQLaunchAd/JQLaunchAdManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0D36C528BCE00B06B8607E8BFBEB8316 /* Frameworks */ = {
+		08D154D1996ED8957E25554C9796193D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				348C3A6A9D14D03DD939710685A2D02C /* Foundation.framework in Frameworks */,
+				7A9C1D81BBFA2715A8D5EB82E2A9CAB9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		23CCFEF04537671FC846F2188DBE1DD6 /* Frameworks */ = {
+		20A20110F768C9717F0F171AF5CE0946 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6434A3D6128B4019913EE5ADAE36CA0 /* Foundation.framework in Frameworks */,
+				B0F950406BBB2A7BA0DA4661CBC872F5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4571CC1363DBF34897F5177B5D8A8D6C /* Frameworks */ = {
+		7D0D8BDA262390851D38C098117FB4FC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEEE602BE621B32875B8F4E0FD1D5C7C /* Foundation.framework in Frameworks */,
+				2D2165D0F42802590E0ADCD595251262 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F2ADB4B86AAAD1936C1E69B35BB733D2 /* Frameworks */ = {
+		7D5B6E3F0060A8F9620540AA69698DE9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -227,80 +205,41 @@
 			path = "Target Support Files/Pods-JQLaunchAdKit_Example";
 			sourceTree = "<group>";
 		};
-		154EC5D58B0A7426596A5D83A8129AD4 /* JQLaunchAdKit */ = {
+		2CD9A53693B323C2F22BED5CD550DC93 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				5B922D1A582BC66D2EE64288EE58B149 /* JQLaunchAd.h */,
-				5682CAF3633FD35F4E20D13071095E29 /* JQLaunchAd.m */,
-				588E9579A19283E58DAC98B869701B7E /* JQLaunchAdButton.h */,
-				AB7E4EFBCA854C7DA45E690B6397F69B /* JQLaunchAdButton.m */,
-				ABE557CAB6E804B884D03B8A3FE7D8F7 /* JQLaunchAdCache.h */,
-				AD7FAA5D2EE4D72A2F2BB13F2E561D38 /* JQLaunchAdCache.m */,
-				2ADFFAD56BDE3D389F0F8F4CF244A388 /* JQLaunchAdConfiguration.h */,
-				F4E89B8700B6366329B4B0E3E0823010 /* JQLaunchAdConfiguration.m */,
-				204FF06C37AC78079D159E04BD17395F /* JQLaunchAdConst.h */,
-				9267B1E2A8EAA120C970FBB0EC8D8912 /* JQLaunchAdConst.m */,
-				3ACC75B4042C8C9065B8A56079EFD62E /* JQLaunchAdController.h */,
-				65E49074DCB8F512F03D142F8F02DED6 /* JQLaunchAdController.m */,
-				8494DE30694793AD61505F67B6CAEC0C /* JQLaunchAdDetailController.h */,
-				404D09C697B435FB5F9F034C227A15CC /* JQLaunchAdDetailController.m */,
-				0B78822188772EE5AE3DEBE12F7B1C27 /* JQLaunchAdDownloader.h */,
-				EF9A77B8AF02FD54233A902142F81BF1 /* JQLaunchAdDownloader.m */,
-				2432E5950B808BE15E6CDA8794855CB1 /* JQLaunchAdImageManager.h */,
-				86DDEE9AEFA7352116F14FF3C8867F5A /* JQLaunchAdImageManager.m */,
-				0D2F134550AF762E2B4F70413ECD005D /* JQLaunchAdImageView+JQLaunchAdCache.h */,
-				D4F72D402C30DB9FBBAE2611AC34D662 /* JQLaunchAdImageView+JQLaunchAdCache.m */,
-				384ACDF112AC1EA9F8BB7F50CF6F81D3 /* JQLaunchAdManager.h */,
-				74712048D371967C852A43C8B1E5B149 /* JQLaunchAdManager.m */,
-				E0433F503446AD33E97DBB44BF301279 /* JQLaunchAdModel.h */,
-				3B4EB247CC27316A761B6A5BD9C0616A /* JQLaunchAdModel.m */,
-				DD8B799D37AFB490C7CD5828400A2406 /* JQLaunchAdNotifier.h */,
-				28E2CD2DC18CB9CBE4C8D2ABE8D881EF /* JQLaunchAdNotifier.m */,
-				038D90549D1643955F287AB9A1E7FB46 /* JQLaunchAdView.h */,
-				549FD79C15F4054B53CA9F516E44ED75 /* JQLaunchAdView.m */,
-				57CBE5BFC99DAE9175808037DDD84196 /* JQLaunchImageView.h */,
-				DF474C3399DF1580C220D587351EEED8 /* JQLaunchImageView.m */,
-				F83697C178C8AB8397DC4946324AF716 /* FLAnimatedImage */,
-				55FB284666132E852BB7570C4A9276EC /* Pod */,
-				86E0AE966E3E9664528FEE171A9793CB /* Reachability */,
-				1755BC03541AD6511B378B3DBC8A4D4E /* Resources */,
-				80254089441238D4A81B7057411D627D /* Support Files */,
-			);
-			name = JQLaunchAdKit;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		1755BC03541AD6511B378B3DBC8A4D4E /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				B9056970A5BD0656AC66FEB1245BB213 /* JQLaunchAdKit.bundle */,
-				3BE821A1B307497EDED44B4919CC031D /* JQLaunchAdKit.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		3BE821A1B307497EDED44B4919CC031D /* JQLaunchAdKit.bundle */ = {
-			isa = PBXGroup;
-			children = (
-				C19A9F50BFABCEC7198DDF3082ECBEC7 /* back.png */,
-				534E87D9D1EB5DFB3ED42BC86E853768 /* forward.png */,
-				D35D5687EEC8F9BA72B87175D9C5DD94 /* home.png */,
-				D0E85F484E349FF1772F30C99E732077 /* NoNet.png */,
-				28D354359A92B8C86856820610317FC7 /* reload.png */,
-				E4D2A3658D70A2ACBCC46DEEE407BB9D /* share.png */,
-			);
-			name = JQLaunchAdKit.bundle;
-			path = JQLaunchAdKit/Assets/JQLaunchAdKit.bundle;
-			sourceTree = "<group>";
-		};
-		55FB284666132E852BB7570C4A9276EC /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				AB76EDC61F85605A4EBFF11EBE9A6D52 /* JQLaunchAdKit.podspec */,
-				6FF9787E1690270479339A128CC1D6BA /* LICENSE */,
-				CA4924D1A2CA119370C3A0A97F711B54 /* README.md */,
+				2A57415FAD8FFA88469A12A3009F3865 /* JQLaunchAdKit.podspec */,
+				914216F109232AAC4854923262E8B2D4 /* LICENSE */,
+				4C4BA7D9149F23BB2051E529B2B2434E /* README.md */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		556BB691E855142E9C7CBAEF7030BA43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				903508804DA28945D7276A6F0B04E640 /* JQLaunchAdKit */,
+				EBDEED816096E75D17235E17D2ACC22F /* JQLaunchAdKit-JQLaunchAdKit */,
+				97F1A2A742E826924D09351E52A3233E /* Pods-JQLaunchAdKit_Example */,
+				278919F130E188FA770B68D15FC68D45 /* Pods-JQLaunchAdKit_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5F877FACB5CD5D335F1EACB3F632BF9A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F89AD54FA74789A2919D2D07C5A8E709 /* JQLaunchAdKit */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		72827C2A9A0A874FA7B479D9DC68F69F /* Pods-JQLaunchAdKit_Tests */ = {
@@ -319,66 +258,29 @@
 			path = "Target Support Files/Pods-JQLaunchAdKit_Tests";
 			sourceTree = "<group>";
 		};
-		80254089441238D4A81B7057411D627D /* Support Files */ = {
+		7F5F3CE972451357DF62471340979466 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B3A05607A1E7AD06B0474359500A7A1A /* JQLaunchAdKit.modulemap */,
-				BDFD6F7823957556D7FE3A13BAF1FFAF /* JQLaunchAdKit-dummy.m */,
-				103635DB3B5CA5E72757A3170BB96A9C /* JQLaunchAdKit-Info.plist */,
-				8E697F065687951B2BD75DDC34D00E37 /* JQLaunchAdKit-prefix.pch */,
-				F949643B39B6B2F2D15FA0D269143A53 /* JQLaunchAdKit-umbrella.h */,
-				6E157CD0825663FB32F46101B074B6D0 /* JQLaunchAdKit.debug.xcconfig */,
-				CA26D633CCCC4D2404F3C60E4A4E3528 /* JQLaunchAdKit.release.xcconfig */,
-				C4440FE50B1737ED1BC093BBF83C54B0 /* ResourceBundle-JQLaunchAdKit-JQLaunchAdKit-Info.plist */,
+				320A0C2157824D08A409C70211A9F828 /* JQLaunchAdKit.modulemap */,
+				9B9D37FC7EE89E20394798FB96B4D141 /* JQLaunchAdKit-dummy.m */,
+				5AE42A36FB77B9B7876AFC92093793EB /* JQLaunchAdKit-Info.plist */,
+				CC0355CB892B2837DD5D3425F6D80552 /* JQLaunchAdKit-prefix.pch */,
+				BBD96DE1510289AC10155E35F96CDBC0 /* JQLaunchAdKit-umbrella.h */,
+				0A19F040E095FB4036D2B57B9C2428CE /* JQLaunchAdKit.debug.xcconfig */,
+				4AF8BFFA5F1C66925F05BE07AB3CBCF0 /* JQLaunchAdKit.release.xcconfig */,
+				D1C1672E0B0DE2BE417BE93401588F34 /* ResourceBundle-JQLaunchAdKit-JQLaunchAdKit-Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/JQLaunchAdKit";
-			sourceTree = "<group>";
-		};
-		8045D7549FAACCEE557411EBD5B4FADE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				EBDEED816096E75D17235E17D2ACC22F /* JQLaunchAdKit.bundle */,
-				903508804DA28945D7276A6F0B04E640 /* JQLaunchAdKit.framework */,
-				97F1A2A742E826924D09351E52A3233E /* Pods_JQLaunchAdKit_Example.framework */,
-				278919F130E188FA770B68D15FC68D45 /* Pods_JQLaunchAdKit_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		86E0AE966E3E9664528FEE171A9793CB /* Reachability */ = {
-			isa = PBXGroup;
-			children = (
-				C7A1BE2B62C67E00B1E5DB5000191BEB /* Reachability.h */,
-				957906072B473788BD24DD9658454690 /* Reachability.m */,
-			);
-			name = Reachability;
-			path = JQLaunchAdKit/Classes/JQLaunchAd/Reachability;
-			sourceTree = "<group>";
-		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		C7C7575E918CE395B1331FC388F93527 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				154EC5D58B0A7426596A5D83A8129AD4 /* JQLaunchAdKit */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				C7C7575E918CE395B1331FC388F93527 /* Development Pods */,
+				5F877FACB5CD5D335F1EACB3F632BF9A /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				8045D7549FAACCEE557411EBD5B4FADE /* Products */,
+				556BB691E855142E9C7CBAEF7030BA43 /* Products */,
 				0FF83C85460780785734F0C237724160 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -386,65 +288,93 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F83697C178C8AB8397DC4946324AF716 /* FLAnimatedImage */ = {
+		F89AD54FA74789A2919D2D07C5A8E709 /* JQLaunchAdKit */ = {
 			isa = PBXGroup;
 			children = (
-				3EDC41126406447010D9F075B44042A2 /* FLAnimatedImage.h */,
-				BD294092D1E0168CE886E538022110AF /* FLAnimatedImage.m */,
-				1959469883AB3A7B9A8C7E583EF688CB /* FLAnimatedImageView.h */,
-				2663418877C1B4A516C5583D7DB4DE0D /* FLAnimatedImageView.m */,
+				DC197BCAFC6164CA930E1E10778B5932 /* JQLaunchAd.h */,
+				AA58DEF231A48D1AE6D048F1B974A100 /* JQLaunchAd.m */,
+				60E69996C785C0787D5F17AB0BA24B1F /* JQLaunchAdButton.h */,
+				174494D495318D7FB115EE9C152F2E94 /* JQLaunchAdButton.m */,
+				C8070AA48BCDBF6D96C5F899B0C1CAD0 /* JQLaunchAdCache.h */,
+				4507EA4F74142EC0CBBCF5B7B64EE8AF /* JQLaunchAdCache.m */,
+				51F2A25389A0FC23239F6C0FF0BFB625 /* JQLaunchAdConfiguration.h */,
+				968BDFA62850B3CFE0175B730732A2B7 /* JQLaunchAdConfiguration.m */,
+				2C16DC85CD9470C321B0E127B128CAFD /* JQLaunchAdConst.h */,
+				626E019A8E3F1C8E69AE81E2EEF3E5E6 /* JQLaunchAdConst.m */,
+				53F267D3FEAACD45AA90094360AA64E6 /* JQLaunchAdController.h */,
+				080061640C90C3B636B3BA161456F80D /* JQLaunchAdController.m */,
+				839BFD6E38143789250E57411FDA3AFB /* JQLaunchAdDetailController.h */,
+				9E27B91CB5B773593638B604003F201F /* JQLaunchAdDetailController.m */,
+				52181813228F2B79D51674488A5B7D52 /* JQLaunchAdDownloader.h */,
+				C783764EF53A4ED430F47E366765D657 /* JQLaunchAdDownloader.m */,
+				1430F4FF8B5D51F3E40BFC3D978348D3 /* JQLaunchAdImageManager.h */,
+				706E8AF694F477EA97650CB09CE8615A /* JQLaunchAdImageManager.m */,
+				5D9C0150B94803CCA316197BDAE17CEE /* JQLaunchAdImageView+JQLaunchAdCache.h */,
+				6D343579A01EE76B7400A5631D6E583A /* JQLaunchAdImageView+JQLaunchAdCache.m */,
+				21E9C840A013336019BD19980B38BE45 /* JQLaunchAdKit.bundle */,
+				13D566AA2F04A7152F809FD4FA25FBB6 /* JQLaunchAdKit.h */,
+				F06E825817E911DB3186B9E6461F7338 /* JQLaunchAdManager.h */,
+				B96524CC589C787119E51C927C13EB1D /* JQLaunchAdManager.m */,
+				C31056302997F5DCC57BA9546D2A1DC5 /* JQLaunchAdModel.h */,
+				46103394DF163BE2C9E2A55BBD152360 /* JQLaunchAdModel.m */,
+				997A83F64E98F8097AA643F01E1A1CF9 /* JQLaunchAdNotifier.h */,
+				15189111EA557386E3D4CC2D5212C78A /* JQLaunchAdNotifier.m */,
+				80A5509052BB464FD70F2A5E044F09DA /* JQLaunchAdView.h */,
+				196557EC6B3AA5CA4EC3CCFF19A1ADFA /* JQLaunchAdView.m */,
+				12805945682BA7E8F27CAD0FFB300554 /* JQLaunchImageView.h */,
+				A6519398FC38E8EEE87044FE8C11E235 /* JQLaunchImageView.m */,
+				2CD9A53693B323C2F22BED5CD550DC93 /* Pod */,
+				7F5F3CE972451357DF62471340979466 /* Support Files */,
 			);
-			name = FLAnimatedImage;
-			path = JQLaunchAdKit/Classes/JQLaunchAd/FLAnimatedImage;
+			name = JQLaunchAdKit;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		288DFA85BF382D746F896EB206DABEC9 /* Headers */ = {
+		2B30488F8344146EBCDFD056E546E90C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				057CB0A173FA2DADB4C9BEEBE1F9F44D /* Pods-JQLaunchAdKit_Tests-umbrella.h in Headers */,
+				A45771CAB90598D757E49E61684BD89E /* Pods-JQLaunchAdKit_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		372E8619D4F0E983C307656DD3C28AE7 /* Headers */ = {
+		575E16E7F62DE314FED6220E3EA9CE2A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6877103FF2F731AD54A10A3039B2C17B /* Pods-JQLaunchAdKit_Example-umbrella.h in Headers */,
+				A4633C8666B4650BF27DE86E7BA5AC2C /* Pods-JQLaunchAdKit_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C094B2730E38EA0235A9C67AABCDA69D /* Headers */ = {
+		639295C0F2C44EE37E68DDE48ABA2F5E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08F9271C58F561D9A580F52E2465268C /* FLAnimatedImage.h in Headers */,
-				1E784A282F9DDC87A20F47E0900495E9 /* FLAnimatedImageView.h in Headers */,
-				FA833226095AC8EF5AB6D13BBB15EEBE /* JQLaunchAd.h in Headers */,
-				4035D336E72FA83B3743D099E4FA534D /* JQLaunchAdButton.h in Headers */,
-				6CFFA4B71C07D71D651B9D55B04DB217 /* JQLaunchAdCache.h in Headers */,
-				4C84DB503FEB7066C3DDBEF6A26C70D4 /* JQLaunchAdConfiguration.h in Headers */,
-				202A1860889C7CE3048CF9BE92886FAA /* JQLaunchAdConst.h in Headers */,
-				444F3D01D76E613D57792FFB1967C6DE /* JQLaunchAdController.h in Headers */,
-				230E9BCBA909E2C035845E11E56542A6 /* JQLaunchAdDetailController.h in Headers */,
-				B8664844B7FA1EB00CA18806752089D5 /* JQLaunchAdDownloader.h in Headers */,
-				2F5339E0C7272595729969C9AA6E5ACA /* JQLaunchAdImageManager.h in Headers */,
-				B1FFDEEA37501ADB3966D2BF8126F094 /* JQLaunchAdImageView+JQLaunchAdCache.h in Headers */,
-				FA3BD9B9D4AE427AE5A50DCA03AFB735 /* JQLaunchAdKit-umbrella.h in Headers */,
-				C6543DD0A790581C6D71503257C48181 /* JQLaunchAdManager.h in Headers */,
-				554E20E393B9ADE9211576AB4D4C70DD /* JQLaunchAdModel.h in Headers */,
-				1987D4305C0B14AB6E991BF6F531BCB3 /* JQLaunchAdNotifier.h in Headers */,
-				2EEA08EC117D6AA96AACA8EB2B606A18 /* JQLaunchAdView.h in Headers */,
-				4E1FF150A378E83B132D172C88CE19C1 /* JQLaunchImageView.h in Headers */,
-				8D0B6A2EAC71B4F6D483AF5D11AB0C61 /* Reachability.h in Headers */,
+				2B2F46D17D442D21AAEDEFCB1198EB42 /* JQLaunchAd.h in Headers */,
+				6AC7614135C90A71A8F74E2CE013E5C7 /* JQLaunchAdButton.h in Headers */,
+				0C480050CD0FB277BEA3884C855E0016 /* JQLaunchAdCache.h in Headers */,
+				C891A932399083A31AE5717985BE89DB /* JQLaunchAdConfiguration.h in Headers */,
+				15F699479725170D37BE9C68A38464E8 /* JQLaunchAdConst.h in Headers */,
+				3D0A820B51686CF455B5BE3D395F6063 /* JQLaunchAdController.h in Headers */,
+				CF0647296E1E0AC802B999A0CF778E27 /* JQLaunchAdDetailController.h in Headers */,
+				98D09285E9779F6E92BD067BF5C301AE /* JQLaunchAdDownloader.h in Headers */,
+				663F0D406B505631CA7CDE4F743E4AEE /* JQLaunchAdImageManager.h in Headers */,
+				B0F6E8F0B1F571F4F35A6A7AFA21A4DB /* JQLaunchAdImageView+JQLaunchAdCache.h in Headers */,
+				B028A7C358F77B3D1D33662348E2FE37 /* JQLaunchAdKit.h in Headers */,
+				C7DD0CF52C9F8491B09052CE1431AD91 /* JQLaunchAdKit-umbrella.h in Headers */,
+				8D3F95E1CCBB4248DA1FEDEF6B88FF57 /* JQLaunchAdManager.h in Headers */,
+				0E1D8BDCD973AF07BDE0652BC7FBA982 /* JQLaunchAdModel.h in Headers */,
+				D21396DFB73E2CF4FADA0166091CA5A3 /* JQLaunchAdNotifier.h in Headers */,
+				1C6DE2FA1582A8BE3CA095D714D98E28 /* JQLaunchAdView.h in Headers */,
+				AC877C5086333D2DB9CE0D268223B6A2 /* JQLaunchImageView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,76 +383,76 @@
 /* Begin PBXNativeTarget section */
 		1D09302DC2E2D4A2FCE6B7B1B6679CA1 /* JQLaunchAdKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 93051AA8BBC0631DEEE4EFC0C4778F27 /* Build configuration list for PBXNativeTarget "JQLaunchAdKit" */;
+			buildConfigurationList = 88E8C2CC6CB3DCB4F165D9EF6A8DBFFF /* Build configuration list for PBXNativeTarget "JQLaunchAdKit" */;
 			buildPhases = (
-				C094B2730E38EA0235A9C67AABCDA69D /* Headers */,
-				760CCE8B08210E5F2F94461717FE6FC3 /* Sources */,
-				23CCFEF04537671FC846F2188DBE1DD6 /* Frameworks */,
-				EB680801CC5492B2D82B1170E2E79671 /* Resources */,
+				639295C0F2C44EE37E68DDE48ABA2F5E /* Headers */,
+				213870A274856A8E01E43184A8BA64BA /* Sources */,
+				08D154D1996ED8957E25554C9796193D /* Frameworks */,
+				776BC575F71E119C473D3874ECE76F56 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				831D2A903466C74C4F733727F0C25C9C /* PBXTargetDependency */,
+				9019653E64C88CFC294D65AD40CA629F /* PBXTargetDependency */,
 			);
 			name = JQLaunchAdKit;
 			productName = JQLaunchAdKit;
-			productReference = 903508804DA28945D7276A6F0B04E640 /* JQLaunchAdKit.framework */;
+			productReference = 903508804DA28945D7276A6F0B04E640 /* JQLaunchAdKit */;
 			productType = "com.apple.product-type.framework";
 		};
 		6FD002FA670FAD42CFBDC3E02F84BDFA /* JQLaunchAdKit-JQLaunchAdKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DE9ABFBDBF39EFDE3050BD3CFB22AA7C /* Build configuration list for PBXNativeTarget "JQLaunchAdKit-JQLaunchAdKit" */;
+			buildConfigurationList = D718301BF24A80EBC7F649125864F8A1 /* Build configuration list for PBXNativeTarget "JQLaunchAdKit-JQLaunchAdKit" */;
 			buildPhases = (
-				F17F88A50975CEFA797F7EDCD241A223 /* Sources */,
-				F2ADB4B86AAAD1936C1E69B35BB733D2 /* Frameworks */,
-				8DBE1ED8E9AA844872262C2BC4992795 /* Resources */,
+				290F8278E5C1CD20B7A1A4B3E2F14679 /* Sources */,
+				7D5B6E3F0060A8F9620540AA69698DE9 /* Frameworks */,
+				859A37DB1536EE24E7D25E90F71D4AAF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "JQLaunchAdKit-JQLaunchAdKit";
-			productName = "JQLaunchAdKit-JQLaunchAdKit";
-			productReference = EBDEED816096E75D17235E17D2ACC22F /* JQLaunchAdKit.bundle */;
+			productName = JQLaunchAdKit;
+			productReference = EBDEED816096E75D17235E17D2ACC22F /* JQLaunchAdKit-JQLaunchAdKit */;
 			productType = "com.apple.product-type.bundle";
 		};
 		81495A7452C515BAAAC507D8CB9F732E /* Pods-JQLaunchAdKit_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5888DCBE55875B562D7656EFD2FF8BD7 /* Build configuration list for PBXNativeTarget "Pods-JQLaunchAdKit_Tests" */;
+			buildConfigurationList = 65F3EA8821953CC88B5B90E72E8C5D5D /* Build configuration list for PBXNativeTarget "Pods-JQLaunchAdKit_Tests" */;
 			buildPhases = (
-				288DFA85BF382D746F896EB206DABEC9 /* Headers */,
-				1F210171C24145FE29F43B3CEEB00290 /* Sources */,
-				0D36C528BCE00B06B8607E8BFBEB8316 /* Frameworks */,
-				AA002C7D26934481DB108706BEDD21EA /* Resources */,
+				2B30488F8344146EBCDFD056E546E90C /* Headers */,
+				A0DFB2204F3C01619A3F4930BEFF2CE4 /* Sources */,
+				7D0D8BDA262390851D38C098117FB4FC /* Frameworks */,
+				64886BFEAB155EC1A5B93DD23B98E74D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F56BDAF53AFD864C31A2167B5BFF8ECA /* PBXTargetDependency */,
+				583C668A627E3629CD5EE08761E87B3C /* PBXTargetDependency */,
 			);
 			name = "Pods-JQLaunchAdKit_Tests";
-			productName = "Pods-JQLaunchAdKit_Tests";
-			productReference = 278919F130E188FA770B68D15FC68D45 /* Pods_JQLaunchAdKit_Tests.framework */;
+			productName = Pods_JQLaunchAdKit_Tests;
+			productReference = 278919F130E188FA770B68D15FC68D45 /* Pods-JQLaunchAdKit_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 		E15373DCAAB684E739A854CEB87715E3 /* Pods-JQLaunchAdKit_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D5C855FE2002D65DFD6C8C74322775A3 /* Build configuration list for PBXNativeTarget "Pods-JQLaunchAdKit_Example" */;
+			buildConfigurationList = 1D924D697C3DEBC4ED81A4F325C1E58A /* Build configuration list for PBXNativeTarget "Pods-JQLaunchAdKit_Example" */;
 			buildPhases = (
-				372E8619D4F0E983C307656DD3C28AE7 /* Headers */,
-				E4DD29DE43994DF9F873BE682232A691 /* Sources */,
-				4571CC1363DBF34897F5177B5D8A8D6C /* Frameworks */,
-				A110AB830BDE9CEAF2013A8378184E54 /* Resources */,
+				575E16E7F62DE314FED6220E3EA9CE2A /* Headers */,
+				7F1586B9A7E30703192DDE63CE851EAC /* Sources */,
+				20A20110F768C9717F0F171AF5CE0946 /* Frameworks */,
+				6087C3DA138146F91CE84EB9C93DA50C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A7A68F882F504C19A2EB15D3CA24440C /* PBXTargetDependency */,
+				1B9C1124D11880D91197DD914DF70AEB /* PBXTargetDependency */,
 			);
 			name = "Pods-JQLaunchAdKit_Example";
-			productName = "Pods-JQLaunchAdKit_Example";
-			productReference = 97F1A2A742E826924D09351E52A3233E /* Pods_JQLaunchAdKit_Example.framework */;
+			productName = Pods_JQLaunchAdKit_Example;
+			productReference = 97F1A2A742E826924D09351E52A3233E /* Pods-JQLaunchAdKit_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -531,19 +461,19 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 8045D7549FAACCEE557411EBD5B4FADE /* Products */;
+			productRefGroup = 556BB691E855142E9C7CBAEF7030BA43 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -556,157 +486,114 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8DBE1ED8E9AA844872262C2BC4992795 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				75B588CBAE6D4B3E2B14636CEB7EB9F6 /* back.png in Resources */,
-				9B53B089AA2FBC1EA2E53BB43B23BFD8 /* forward.png in Resources */,
-				D219F7F689A6A7020FB7927945894A9D /* home.png in Resources */,
-				93DC60248C4A984A8BFA3B49C39B25FE /* JQLaunchAdKit.bundle in Resources */,
-				55392CDD933E262690FFA2E55825DE25 /* NoNet.png in Resources */,
-				F8FA9D69E3FAC7AB57A6763A64D6E30B /* reload.png in Resources */,
-				0539E5FDC10F4F6CCB8402FC2FA34EF3 /* share.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A110AB830BDE9CEAF2013A8378184E54 /* Resources */ = {
+		6087C3DA138146F91CE84EB9C93DA50C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA002C7D26934481DB108706BEDD21EA /* Resources */ = {
+		64886BFEAB155EC1A5B93DD23B98E74D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB680801CC5492B2D82B1170E2E79671 /* Resources */ = {
+		776BC575F71E119C473D3874ECE76F56 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8CB3F1EF27D2705DB2A697D2394A536 /* JQLaunchAdKit.bundle in Resources */,
+				933E4C45F8C52BF832CDE94543FAB6CE /* JQLaunchAdKit-JQLaunchAdKit in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		859A37DB1536EE24E7D25E90F71D4AAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6D16E8104392F55848C35FCB728449 /* JQLaunchAdKit.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1F210171C24145FE29F43B3CEEB00290 /* Sources */ = {
+		213870A274856A8E01E43184A8BA64BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E590FE38B977C38A9BFB8BC90108206 /* Pods-JQLaunchAdKit_Tests-dummy.m in Sources */,
+				EC01AF6F6642A487510A68B62B818770 /* JQLaunchAd.m in Sources */,
+				2F6F39FAA3B29DF50B9A809EF69546F1 /* JQLaunchAdButton.m in Sources */,
+				EB3DC92F8AA868AABFC5A65286D7E045 /* JQLaunchAdCache.m in Sources */,
+				4396F91B2AFB7A7EBDBC07A6FA22FC2E /* JQLaunchAdConfiguration.m in Sources */,
+				DA1315CFED11D6648D51FBB368D9112F /* JQLaunchAdConst.m in Sources */,
+				0A657A8959E2F988555796B9D6336395 /* JQLaunchAdController.m in Sources */,
+				DA36A57BD70790F103AD8CA2E7B1DB0D /* JQLaunchAdDetailController.m in Sources */,
+				57F734EB08EBE36C55E7EDC77D27A5B9 /* JQLaunchAdDownloader.m in Sources */,
+				E7B5B78874B449723D755FA1E7C94C55 /* JQLaunchAdImageManager.m in Sources */,
+				6EC6ED2EE74B61DB009D9C12763D7505 /* JQLaunchAdImageView+JQLaunchAdCache.m in Sources */,
+				26F27A5DA7784C4CADA205DDF9E589C8 /* JQLaunchAdKit-dummy.m in Sources */,
+				3FAC8979134D18678F1804762DC73A4A /* JQLaunchAdManager.m in Sources */,
+				FB42F1B8526043983F3B98687F70CFEE /* JQLaunchAdModel.m in Sources */,
+				BB98CA33D42F42602D4D4DE6D5DD7C18 /* JQLaunchAdNotifier.m in Sources */,
+				C2F586E5C94D6401DCA68B5CF5A5A2CA /* JQLaunchAdView.m in Sources */,
+				675C3B299C651ADC925458F130DAD886 /* JQLaunchImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		760CCE8B08210E5F2F94461717FE6FC3 /* Sources */ = {
+		290F8278E5C1CD20B7A1A4B3E2F14679 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A4C8E93EC6B1ED716B82F2FF2F0E2B9 /* FLAnimatedImage.m in Sources */,
-				09CCB3AE86D28E8F6B1A68975DC17764 /* FLAnimatedImageView.m in Sources */,
-				8665049E3C0F7D58D0D2B7FA81E9F910 /* JQLaunchAd.m in Sources */,
-				0B78A4EAB3073C04A54AA2B8558D0F48 /* JQLaunchAdButton.m in Sources */,
-				66517B155D90FAB05DC15D35DCABDAC6 /* JQLaunchAdCache.m in Sources */,
-				B7151411D721AB0C71818B6DC460229B /* JQLaunchAdConfiguration.m in Sources */,
-				9767A8D629621A3DAEF0D9F335063CAF /* JQLaunchAdConst.m in Sources */,
-				DD68B3316D6BEA26E2C9EBFFF1360FE0 /* JQLaunchAdController.m in Sources */,
-				78121DB57EF2A6979BA499181979431E /* JQLaunchAdDetailController.m in Sources */,
-				63093011ECBE26F10BE50AA1B200DCD3 /* JQLaunchAdDownloader.m in Sources */,
-				871C09F22F1F53B079ECACB3FE3CE89F /* JQLaunchAdImageManager.m in Sources */,
-				1ECB74DD122071EA07E9800998030E4A /* JQLaunchAdImageView+JQLaunchAdCache.m in Sources */,
-				7013A194ACC14ED74F2674A74E707286 /* JQLaunchAdKit-dummy.m in Sources */,
-				685DC3D62E3ECB1E4A948624374188BC /* JQLaunchAdManager.m in Sources */,
-				8CA18DFF9CDCBEA832F7C689A6BEA9C4 /* JQLaunchAdModel.m in Sources */,
-				3BA2264132FCD7AF8D167D8A15452561 /* JQLaunchAdNotifier.m in Sources */,
-				59B83A7049CE5B641963213B158FA430 /* JQLaunchAdView.m in Sources */,
-				17B4DF0DC36DC2FCDBF29C7C42E93AC6 /* JQLaunchImageView.m in Sources */,
-				CEF17A8B5AA2CA2E98A9886E754263EA /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E4DD29DE43994DF9F873BE682232A691 /* Sources */ = {
+		7F1586B9A7E30703192DDE63CE851EAC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA73699BEDA47195E60F4609854E63FA /* Pods-JQLaunchAdKit_Example-dummy.m in Sources */,
+				E53796A763B44A675A8987535C840399 /* Pods-JQLaunchAdKit_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F17F88A50975CEFA797F7EDCD241A223 /* Sources */ = {
+		A0DFB2204F3C01619A3F4930BEFF2CE4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15F6AC0EDC716B6B5669F0D4A1885941 /* Pods-JQLaunchAdKit_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		831D2A903466C74C4F733727F0C25C9C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "JQLaunchAdKit-JQLaunchAdKit";
-			target = 6FD002FA670FAD42CFBDC3E02F84BDFA /* JQLaunchAdKit-JQLaunchAdKit */;
-			targetProxy = 87CE19A6E4EFA997AD58282614F5D94F /* PBXContainerItemProxy */;
-		};
-		A7A68F882F504C19A2EB15D3CA24440C /* PBXTargetDependency */ = {
+		1B9C1124D11880D91197DD914DF70AEB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JQLaunchAdKit;
 			target = 1D09302DC2E2D4A2FCE6B7B1B6679CA1 /* JQLaunchAdKit */;
-			targetProxy = A2F07FEA02DFEC246F744E9C96043E19 /* PBXContainerItemProxy */;
+			targetProxy = F3C85F2C5DDEA26E7EE56C06E120F458 /* PBXContainerItemProxy */;
 		};
-		F56BDAF53AFD864C31A2167B5BFF8ECA /* PBXTargetDependency */ = {
+		583C668A627E3629CD5EE08761E87B3C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-JQLaunchAdKit_Example";
 			target = E15373DCAAB684E739A854CEB87715E3 /* Pods-JQLaunchAdKit_Example */;
-			targetProxy = 1CAA412418C5C7B2BB080CCA773018FC /* PBXContainerItemProxy */;
+			targetProxy = 403FEA173E5C757C266044BD33BE0294 /* PBXContainerItemProxy */;
+		};
+		9019653E64C88CFC294D65AD40CA629F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "JQLaunchAdKit-JQLaunchAdKit";
+			target = 6FD002FA670FAD42CFBDC3E02F84BDFA /* JQLaunchAdKit-JQLaunchAdKit */;
+			targetProxy = 3ACBCBD6F880ED86AC52D92B6A565700 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		158C81667544B24282ADED82F0F5C353 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B079F1609D8433751BFC85DC8391CA46 /* Pods-JQLaunchAdKit_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-JQLaunchAdKit_Example/Pods-JQLaunchAdKit_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-JQLaunchAdKit_Example/Pods-JQLaunchAdKit_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		17B05BA04999696664C2275AE07E0090 /* Release */ = {
+		18E1F06244DD2B829BABBB01842E9F8B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1E6DA39AA65446E32D3455806A2D68BE /* Pods-JQLaunchAdKit_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -735,141 +622,11 @@
 			};
 			name = Release;
 		};
-		1CA62EDA01ED665E06F7453ACB834134 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6E157CD0825663FB32F46101B074B6D0 /* JQLaunchAdKit.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JQLaunchAdKit/JQLaunchAdKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JQLaunchAdKit/JQLaunchAdKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JQLaunchAdKit/JQLaunchAdKit.modulemap";
-				PRODUCT_MODULE_NAME = JQLaunchAdKit;
-				PRODUCT_NAME = JQLaunchAdKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		294889B1EE73834A269161FA477F8256 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA26D633CCCC4D2404F3C60E4A4E3528 /* JQLaunchAdKit.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JQLaunchAdKit/JQLaunchAdKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JQLaunchAdKit/JQLaunchAdKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JQLaunchAdKit/JQLaunchAdKit.modulemap";
-				PRODUCT_MODULE_NAME = JQLaunchAdKit;
-				PRODUCT_NAME = JQLaunchAdKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2DC1B92E536200AAD58AC8DDC7A44E19 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 599AF9A226BC8B5E0CFB4F0E69F7719C /* Pods-JQLaunchAdKit_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-JQLaunchAdKit_Example/Pods-JQLaunchAdKit_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-JQLaunchAdKit_Example/Pods-JQLaunchAdKit_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6B8DA49AC6520F5E3DDC2ED03C627183 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA26D633CCCC4D2404F3C60E4A4E3528 /* JQLaunchAdKit.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JQLaunchAdKit";
-				IBSC_MODULE = JQLaunchAdKit;
-				INFOPLIST_FILE = "Target Support Files/JQLaunchAdKit/ResourceBundle-JQLaunchAdKit-JQLaunchAdKit-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = JQLaunchAdKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		84927461D85FACC16766DD8D0B716ED2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6E157CD0825663FB32F46101B074B6D0 /* JQLaunchAdKit.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JQLaunchAdKit";
-				IBSC_MODULE = JQLaunchAdKit;
-				INFOPLIST_FILE = "Target Support Files/JQLaunchAdKit/ResourceBundle-JQLaunchAdKit-JQLaunchAdKit-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = JQLaunchAdKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -892,66 +649,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		916E0404255105F480DC4950B7625F7A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -990,12 +688,215 @@
 			};
 			name = Debug;
 		};
-		D31CDCB7A203CC2774C05B899024C5C6 /* Debug */ = {
+		43B3C7CE4283F7675DFA07BF0E46FD2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AF8BFFA5F1C66925F05BE07AB3CBCF0 /* JQLaunchAdKit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JQLaunchAdKit/JQLaunchAdKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JQLaunchAdKit/JQLaunchAdKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JQLaunchAdKit/JQLaunchAdKit.modulemap";
+				PRODUCT_MODULE_NAME = JQLaunchAdKit;
+				PRODUCT_NAME = JQLaunchAdKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		45330E772F1A73F4CD2292C5D1608838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B079F1609D8433751BFC85DC8391CA46 /* Pods-JQLaunchAdKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JQLaunchAdKit_Example/Pods-JQLaunchAdKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JQLaunchAdKit_Example/Pods-JQLaunchAdKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4DAEA27BD942F345A4618D53C2862AF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A19F040E095FB4036D2B57B9C2428CE /* JQLaunchAdKit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JQLaunchAdKit/JQLaunchAdKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JQLaunchAdKit/JQLaunchAdKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JQLaunchAdKit/JQLaunchAdKit.modulemap";
+				PRODUCT_MODULE_NAME = JQLaunchAdKit;
+				PRODUCT_NAME = JQLaunchAdKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7692FE788E4AF8BF38C9C1A2D5AC6EC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 599AF9A226BC8B5E0CFB4F0E69F7719C /* Pods-JQLaunchAdKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JQLaunchAdKit_Example/Pods-JQLaunchAdKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JQLaunchAdKit_Example/Pods-JQLaunchAdKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		817C002835DBD7DC018415171B5966C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A19F040E095FB4036D2B57B9C2428CE /* JQLaunchAdKit.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JQLaunchAdKit";
+				IBSC_MODULE = JQLaunchAdKit;
+				INFOPLIST_FILE = "Target Support Files/JQLaunchAdKit/ResourceBundle-JQLaunchAdKit-JQLaunchAdKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = JQLaunchAdKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D4C4BE6C5E112210D5B792175A9E464B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DF10E459E5F93A17D56D1A6E922F4987 /* Pods-JQLaunchAdKit_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1023,50 +924,66 @@
 			};
 			name = Debug;
 		};
+		D76302075266F901D4621E1C3FD92333 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AF8BFFA5F1C66925F05BE07AB3CBCF0 /* JQLaunchAdKit.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JQLaunchAdKit";
+				IBSC_MODULE = JQLaunchAdKit;
+				INFOPLIST_FILE = "Target Support Files/JQLaunchAdKit/ResourceBundle-JQLaunchAdKit-JQLaunchAdKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = JQLaunchAdKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1D924D697C3DEBC4ED81A4F325C1E58A /* Build configuration list for PBXNativeTarget "Pods-JQLaunchAdKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45330E772F1A73F4CD2292C5D1608838 /* Debug */,
+				7692FE788E4AF8BF38C9C1A2D5AC6EC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				916E0404255105F480DC4950B7625F7A /* Debug */,
-				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5888DCBE55875B562D7656EFD2FF8BD7 /* Build configuration list for PBXNativeTarget "Pods-JQLaunchAdKit_Tests" */ = {
+		65F3EA8821953CC88B5B90E72E8C5D5D /* Build configuration list for PBXNativeTarget "Pods-JQLaunchAdKit_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D31CDCB7A203CC2774C05B899024C5C6 /* Debug */,
-				17B05BA04999696664C2275AE07E0090 /* Release */,
+				D4C4BE6C5E112210D5B792175A9E464B /* Debug */,
+				18E1F06244DD2B829BABBB01842E9F8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		93051AA8BBC0631DEEE4EFC0C4778F27 /* Build configuration list for PBXNativeTarget "JQLaunchAdKit" */ = {
+		88E8C2CC6CB3DCB4F165D9EF6A8DBFFF /* Build configuration list for PBXNativeTarget "JQLaunchAdKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1CA62EDA01ED665E06F7453ACB834134 /* Debug */,
-				294889B1EE73834A269161FA477F8256 /* Release */,
+				4DAEA27BD942F345A4618D53C2862AF2 /* Debug */,
+				43B3C7CE4283F7675DFA07BF0E46FD2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D5C855FE2002D65DFD6C8C74322775A3 /* Build configuration list for PBXNativeTarget "Pods-JQLaunchAdKit_Example" */ = {
+		D718301BF24A80EBC7F649125864F8A1 /* Build configuration list for PBXNativeTarget "JQLaunchAdKit-JQLaunchAdKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				158C81667544B24282ADED82F0F5C353 /* Debug */,
-				2DC1B92E536200AAD58AC8DDC7A44E19 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DE9ABFBDBF39EFDE3050BD3CFB22AA7C /* Build configuration list for PBXNativeTarget "JQLaunchAdKit-JQLaunchAdKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				84927461D85FACC16766DD8D0B716ED2 /* Debug */,
-				6B8DA49AC6520F5E3DDC2ED03C627183 /* Release */,
+				817C002835DBD7DC018415171B5966C9 /* Debug */,
+				D76302075266F901D4621E1C3FD92333 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -68,7 +68,7 @@
 		8EEF7E4FA5844549D76DEBBF /* Pods-JQLaunchAdKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JQLaunchAdKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-JQLaunchAdKit_Tests/Pods-JQLaunchAdKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B1D809353187DE337A3A277B /* Pods_JQLaunchAdKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JQLaunchAdKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E320E0A3AF6A59E651ADDFD7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		FCE3993988807D0D04ED980C /* JQLaunchAdKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JQLaunchAdKit.podspec; path = ../JQLaunchAdKit.podspec; sourceTree = "<group>"; };
+		FCE3993988807D0D04ED980C /* JQLaunchAdKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JQLaunchAdKit.podspec; path = ../JQLaunchAdKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
