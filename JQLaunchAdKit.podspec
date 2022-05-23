@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JQLaunchAdKit'
-  s.version          = '3.1.4'
+  s.version          = '3.1.6'
   s.summary          = '开屏广告、启动广告解决方案-支持静态/动态图片广告/mp4视频广告
 '
 
@@ -46,11 +46,8 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'JQLaunchAdKit/Classes/JQLaunchAd/*'
-  
-  s.resource_bundles = {
-    'JQLaunchAdKit' => ['JQLaunchAdKit/Assets/JQLaunchAdKit.bundle']
-  }
+  s.source_files = 'JQLaunchAdKit/Classes/JQLaunchAd/**/*.{h,m}'
+  s.resource = 'JQLaunchAdKit/Assets/JQLaunchAdKit.bundle'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

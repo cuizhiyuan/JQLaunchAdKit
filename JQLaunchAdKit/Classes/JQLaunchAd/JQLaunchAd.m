@@ -199,7 +199,15 @@ static  SourceType _sourceType = SourceTypeLaunchImage;
 }
 
 -(void)setupLaunchAd{
-    UIWindow *window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    UIWindow *window;
+    if (@available(iOS 13.0, *)) {
+        NSArray *array =[[[UIApplication sharedApplication] connectedScenes] allObjects];
+        UIWindowScene *windowScene = (UIWindowScene *)array.firstObject;
+        window = [[UIWindow alloc] initWithWindowScene:windowScene];
+        window.frame = windowScene.coordinateSpace.bounds;
+    } else {
+        window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    }
     window.rootViewController = [JQLaunchAdController new];
     window.rootViewController.view.backgroundColor = [UIColor clearColor];
     window.rootViewController.view.userInteractionEnabled = NO;

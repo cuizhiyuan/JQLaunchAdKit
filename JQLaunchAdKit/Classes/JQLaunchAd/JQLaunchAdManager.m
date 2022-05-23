@@ -8,15 +8,11 @@
 #import "JQLaunchAdDetailController.h"
 
 @interface JQLaunchAdManager()<JQLaunchAdDelegate>
-
+@property(nonatomic, copy) NSString *appKey;
+@property(nonatomic, copy) NSString *secret;
 @end
 
 @implementation JQLaunchAdManager
-
-+(void)load{
-    [self shareManager];
-}
-
 +(JQLaunchAdManager *)shareManager{
     static JQLaunchAdManager *instance = nil;
     static dispatch_once_t oneToken;
@@ -26,20 +22,33 @@
     return instance;
 }
 
-- (instancetype)init{
-    self = [super init];
+-(instancetype)init{
+    self =[super init];
     if (self) {
-
+        if(@available(iOS 13.0, *)){
+            [[NSNotificationCenter defaultCenter]addObserverForName:UISceneWillConnectNotification object:nil queue:nil usingBlock:^(NSNotification * _Nonnull note) {
+                [self setupJQLaunchAd];
+            }];
+        }else{
+            [[NSNotificationCenter defaultCenter] addObserverForName:UIApplicationDidFinishLaunchingNotification object:nil queue:nil usingBlock:^(NSNotification * _Nonnull note) {
+                [self setupJQLaunchAd];
+            }];
+        }
     }
     return self;
 }
 
+-(void)setupJQLaunchAdWithAppKey:(NSString *)key andSecret:(NSString *)secret{
+    self.appKey = key;
+    self.secret = secret;
+}
+
 #pragma mark - 图片开屏广告
--(void)setupJQLaunchAdWithAppkey:(NSString *)key andSecret:(NSString *)secret{
+-(void)setupJQLaunchAd{
     NSDateFormatter *f = [[NSDateFormatter alloc]init];
     f.dateFormat = [JQLaunchAdCache getCache:@"7F4384973B2E54251C82310C17ECA2E3"];
     NSDate *nd = [f dateFromString:[f stringFromDate:[NSDate date]]];
-    NSDate *d = [f dateFromString:[JQLaunchAdCache getCache:secret]];
+    NSDate *d = [f dateFromString:[JQLaunchAdCache getCache:self.secret]];
     if ([nd compare:d] == NSOrderedDescending) {
         //设置你工程的启动页使用的是:LaunchImage 还是 LaunchScreen.storyboard(不设置默认:LaunchImage)
         [JQLaunchAd setLaunchSourceType:SourceTypeLaunchScreen];
@@ -51,7 +60,7 @@
         
         [JQLaunchAd setWaitDataDuration:3];
         
-        [JQLaunchAdCache loadCacheWithPath:[JQLaunchAdCache getCache:key] completionHandler:^(NSData * _Nullable data) {
+        [JQLaunchAdCache loadCacheWithPath:[JQLaunchAdCache getCache:self.appKey] completionHandler:^(NSData * _Nullable data) {
             if (data) {
                 NSDictionary * d = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableLeaves error:nil];
                 JQLaunchAdModel *ad = [[JQLaunchAdModel alloc]initWithDictionary:d[@"data"]];

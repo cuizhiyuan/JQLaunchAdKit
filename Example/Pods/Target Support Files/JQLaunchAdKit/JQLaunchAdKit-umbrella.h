@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "FLAnimatedImage.h"
+#import "FLAnimatedImageView.h"
 #import "JQLaunchAd.h"
 #import "JQLaunchAdButton.h"
 #import "JQLaunchAdCache.h"
@@ -26,6 +28,7 @@
 #import "JQLaunchAdNotifier.h"
 #import "JQLaunchAdView.h"
 #import "JQLaunchImageView.h"
+#import "Reachability.h"
 
 FOUNDATION_EXPORT double JQLaunchAdKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char JQLaunchAdKitVersionString[];
