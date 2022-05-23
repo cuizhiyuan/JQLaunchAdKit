@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JQLaunchAdKit'
-  s.version          = '3.1.6'
+  s.version          = '3.1.7'
   s.summary          = '开屏广告、启动广告解决方案-支持静态/动态图片广告/mp4视频广告
 '
 

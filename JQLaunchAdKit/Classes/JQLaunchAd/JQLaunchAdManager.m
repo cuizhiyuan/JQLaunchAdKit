@@ -69,7 +69,7 @@
                 //广告停留时间
                 imageAdconfiguration.duration = 3;
                 //广告frame
-                imageAdconfiguration.frame = CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height * 0.8);
+                imageAdconfiguration.frame = CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height);
                 //广告图片URLString/或本地图片名(.jpg/.gif请带上后缀)
                 //注意本地广告图片,直接放在工程目录,不要放在Assets里面,否则不识别,此处涉及到内存优化
                 imageAdconfiguration.imageNameOrURLString = ad.image;

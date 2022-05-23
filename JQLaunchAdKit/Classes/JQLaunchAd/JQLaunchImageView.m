@@ -71,11 +71,7 @@
     CGSize size = view.bounds.size;
     //参数1:表示区域大小 参数2:如果需要显示半透明效果,需要传NO,否则传YES 参数3:屏幕密度
     UIGraphicsBeginImageContextWithOptions(size, NO, [UIScreen mainScreen].scale);
-    if ([view respondsToSelector:@selector(drawViewHierarchyInRect:afterScreenUpdates:)]) {
-        [view drawViewHierarchyInRect:view.bounds afterScreenUpdates:YES];
-    }else{
-        [view.layer renderInContext:UIGraphicsGetCurrentContext()];
-    }
+    [view.layer renderInContext:UIGraphicsGetCurrentContext()];
     UIImage * image = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
     return image;

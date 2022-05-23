@@ -1,5 +1,5 @@
 PODS:
-  - JQLaunchAdKit (3.1.6)
+  - JQLaunchAdKit (3.1.7)
 
 DEPENDENCIES:
   - JQLaunchAdKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JQLaunchAdKit: a05316b4b70e08653389499e9175253aa10302aa
+  JQLaunchAdKit: 5e232ae3c2879708166b28d190c8695d667471bd
 
 PODFILE CHECKSUM: bf37683a2bb9963d98a5059ff84280b32601dd70
 
